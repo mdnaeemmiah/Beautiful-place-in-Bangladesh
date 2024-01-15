@@ -5,8 +5,16 @@ body {
 }
 
 /* common style */
-.container {
+/* .container {
     width: 1140px;
+} */
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 150px;
+    height: 50px;
 }
 
 /* nav style start here */
@@ -30,16 +38,18 @@ nav .nav-img {
     font-size: 26px;
     font-weight: 800;
 }
-nav .nav-img img{
+
+nav .nav-img img {
     width: 48px;
-height: 56.008px;
-padding-top: 32px;
+    height: 56.008px;
+    padding-top: 32px;
 }
- nav .nav-img span {
+
+nav .nav-img span {
     color: #FF5400;
     /* font-size: 36px; */
     font-weight: 800;
-} 
+}
 
 nav .nav-text li {
     list-style: none;
@@ -49,37 +59,200 @@ nav .nav-text li {
     font-size: 22px;
     font-weight: 400;
 }
-nav .nav-text .home{
+
+nav .nav-text .home {
     color: #FF5400;
 }
+
 nav .nav-text li a {
     text-decoration: none;
 }
 
+/* last footer section start here */
+.back-img {
+    background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    margin-left: 145px;
+    height: 500px;
+    border-radius: 16px;
+    padding-left: 260px;
+    padding-top: 30px;
+}
+
+.back-img .back-text h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+.back-img .back-text p {
+    width: 676px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.back-img .back-btn {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    gap: 24px;
+    width: 554px;
+    height: 52px;
+    display: flex;
+}
+
+.back-btn button {
+    width: 120px;
+    height: 45px;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+}
+
+/* main section :start here */
+.mount {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 120px;
+    gap: 10px;
+    text-align: justify;
+}
+
+.our-container {
+    width: 500px;
+}
+
+/* choose section */
+.container {
+    margin: 0 70px;
+}
+
+.choose {
+    text-align: center;
+}
+
+.choose p {
+    width: 500px;
+    padding-left: 400px;
+}
+
+.picture {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.picture img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.picture-content1 {
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+
+.picture-content2 {
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+
+.picture-content3 {
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+
+}
+
+.picture-content4 {
+    width: 300px;
+    height: 300px;
+    grid-column: 5/span 4;
+    grid-row: 2/span 1;
+}
+
+.picture-content5 {
+    grid-column: 9/span 4;
+    grid-row: 2/span 1;
+}
+
+.picture-content6 {
+    grid-column: 1/span 6;
+    grid-row: 3/span 1;
+}
+
+.picture-content7 {
+    grid-column: 7/span 6;
+    grid-row: 3/span 1;
+
+}
+
+/* why choose us style */
+
+.div-us div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.final .div-us-content {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: center;
+}
+.final .div-us-content h2{
+    margin-right: 200px;
+}
 
 
 /* responsive media quarry */
-
 /* responsive for mobile */
 @media screen and (max-width: 600px) {
-    nav{
+    nav {
         display: block;
         width: 600px;
-     
+
     }
-    .nav-text ul{
-       display: grid;
-        grid-template-ror: repeat(5,1fr);
+
+    .nav-text ul {
+        display: grid;
+        grid-template-ror: repeat(5, 1fr);
     }
-    nav .nav-img{
+
+    nav .nav-img {
         display: block;
         align-items: center;
     }
+
     nav .nav-img img {
         padding-left: 290px;
     }
-    nav .nav-img h2{
+
+    nav .nav-img h2 {
         width: 300px;
         padding-left: 200px;
     }
+
+    /* .back-img {
+        background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+        width: 35px;
+        height: 483px;
+    
+    }
+
+    .back-img .back-text h1 {
+        font-size: 22px;
+    }
+    .back-img .back-text p{
+        width: 304px;
+    }
+    .back-img .back-btn {
+        display: block;
+    } */
 }
