@@ -1,4 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;1000&family=Poppins:wght@400;500;600;900&display=swap');
-body{
+
+body {
     font-family: 'Mulish', sans-serif;
+}
+
+/* common style */
+.container {
+    width: 1140px;
+}
+
+/* nav style start here */
+
+nav {
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav .nav-img,
+.nav-text ul {
+    display: flex;
+
+}
+
+nav .nav-img {
+    gap: 20px;
+    color: #131318;
+    font-size: 26px;
+    font-weight: 800;
+}
+nav .nav-img img{
+    width: 48px;
+height: 56.008px;
+padding-top: 32px;
+}
+ nav .nav-img span {
+    color: #FF5400;
+    /* font-size: 36px; */
+    font-weight: 800;
+} 
+
+nav .nav-text li {
+    list-style: none;
+    margin: 20px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+nav .nav-text .home{
+    color: #FF5400;
+}
+nav .nav-text li a {
+    text-decoration: none;
+}
+
+
+
+/* responsive media quarry */
+
+/* responsive for mobile */
+@media screen and (max-width: 600px) {
+    nav{
+        display: block;
+        width: 600px;
+     
+    }
+    .nav-text ul{
+       display: grid;
+        grid-template-ror: repeat(5,1fr);
+    }
+    nav .nav-img{
+        display: block;
+        align-items: center;
+    }
+    nav .nav-img img {
+        padding-left: 290px;
+    }
+    nav .nav-img h2{
+        width: 300px;
+        padding-left: 200px;
+    }
 }
