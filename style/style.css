@@ -418,22 +418,26 @@ a {
     text-decoration: none;
 }
 
-li {
+/* li {
     list-style: none;
-}
+} */
 
 button {
     border-radius: 8px;
     background: #FF5400;
-    width: 174px;
+    width: 100%;
+    max-width: 174px;
     height: 52px;
+    border: none;
 }
 
 input {
     border-radius: 8px;
     background: #FFF;
-    width: 174px;
+    width: 100%;
+    max-width: 174px;
     height: 52px;
+    border: none;
 }
 
 /* header style here */
@@ -464,7 +468,9 @@ nav .nav-text ul{
     display: flex;
     gap: 10px;
 }
-
+nav .nav-text li{
+    list-style: none;
+}
 /* Explore Your Travel */
 main{
     padding: 0 140px;
@@ -472,16 +478,32 @@ main{
 .Explore{
     background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    /* margin-left: 140px; */
     height: 500px;
     border-radius: 16px;
     padding: 0 140px;
-    padding-left: 260px; 
-    padding-top: 30px; 
+    padding-top: 30px;  
+}
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container .container-button{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+width: 100%;
+align-items: center;
+padding-bottom: 40px;
+
 }
 .container .container-text p{
     width: 100%;
     max-width: 500px;
+    padding-left: 200px;
 }
 
 .container .container-button{
@@ -490,4 +512,27 @@ main{
 
 /* Our Popular Tours */
 
+.popular{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* width: 100%; */
+    margin-top: 20px;
+}
+.popular .popular-text{
+    width: 50%;
+    height: 600px;
+    text-align: justify;
+}
+.popular .popular-img{
+    width: 50%;
+    height: 600px;
+}
 
+/* picture Your Destination */
+
+.picture .picture{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
