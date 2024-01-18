@@ -1,32 +1,32 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;1000&family=Poppins:wght@400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;1000&family=Poppins:wght@400;500;600;900&display=swap');
 
 body {
     font-family: 'Mulish', sans-serif;
 }
 
-/* common style */
-/* .container {
+common style
+.container {
     width: 1140px;
-} */
+}
 
-/* .btn-primary {
+.btn-primary {
     border-radius: 8px;
     background: #FF5400;
     border: none;
     width: 150px;
     height: 50px;
-} */
+} 
 
-/* nav style start here */
+ nav style start here
 
-/* nav {
+nav {
     display: flex;
     width: 1150px;
     justify-content: space-between;
     margin: auto;
-} */
+}
 
-/* nav .nav-img,
+nav .nav-img,
 .nav-text ul {
     display: flex;
 
@@ -43,9 +43,9 @@ nav .nav-img img {
     width: 48px;
     height: 56.008px;
     padding-top: 32px;
-} */
+} 
 
-/* nav .nav-img span {
+nav .nav-img span {
     color: #FF5400;
     
     font-weight: 800;
@@ -66,10 +66,10 @@ nav .nav-text .home {
 
 nav .nav-text li a {
     text-decoration: none;
-} */
+} 
 
-/* last footer section start here */
-/* .back-img {
+last footer section start here
+ .back-img {
     background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     margin-left: 145px;
@@ -110,10 +110,10 @@ nav .nav-text li a {
     justify-content: center;
     border-radius: 10px;
     border: none;
-} */
+} 
 
-/* main section :start here */
-/* .mount {
+main section :start here
+.mount {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-left: 120px;
@@ -124,10 +124,10 @@ nav .nav-text li a {
 .mount .our-container {
     width: 500px;
     text-align: left;
-} */
+}
 
 /* choose section */
-/* .container {
+.container {
     margin: 0 70px;
 }
 
@@ -190,10 +190,10 @@ nav .nav-text li a {
     grid-column: 7/span 6;
     grid-row: 3/span 1;
 
-} */
+} 
 
 /* why choose us style */
-/* .div-us h1,
+ .div-us h1,
 p {
     text-align: center;
 }
@@ -237,12 +237,11 @@ p {
 .card3 {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-} */
+} 
 
 /* Deals & Discounts style here */
 
 /* A Simple Perfect Place To Get Lost */
-/* 
 .simple{
     display: flex;
     justify-content: space-between;
@@ -253,13 +252,13 @@ p {
     width: 500px;
 }
 .simple .simple-video{
-    /* height: 420px;
-    width: 500px; */
-/* margin-right: 70px; */
-/* } */
+    height: 420px;
+    width: 500px;
+margin-right: 70px;
+ } *
 /* Newslatter section start */
 
-/* .newslatter {
+.newslatter {
     display: flex;
     justify-content: space-between;
     margin: 10px 70px;
@@ -291,10 +290,10 @@ input {
 
 .newslatter .newslatter-text h1 {
     margin-left: 30px;
-} */
+} 
 
 /* footer section start here */
-/* footer {
+ footer {
     width: 100%;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
@@ -327,11 +326,11 @@ footer .icons {
 footer h3 {
     text-align: center;
     padding-top: 20px;
-} */
+} 
 
 /* responsive media quarry */
 /* responsive for mobile */
-/* @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
     nav {
         display: block;
         width: 600px;
@@ -380,10 +379,10 @@ footer h3 {
         padding: 0;
     }
 
-}  */
+} 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;1000&family=Poppins:wght@400;500;600;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;1000&family=Poppins:wght@400;500;600;900&display=swap');
 
 body {
     font-family: 'Mulish', sans-serif;
@@ -442,12 +441,12 @@ input {
 
 /* header style here */
 nav {
-     width: 80%;
+    width: 80%;
     padding: 0 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
     height: 100%;
 }
 
@@ -464,75 +463,138 @@ nav .nav-img span {
     line-height: normal;
 }
 
-nav .nav-text ul{
+nav .nav-text ul {
     display: flex;
     gap: 10px;
 }
-nav .nav-text li{
+
+nav .nav-text li {
     list-style: none;
 }
+
 /* Explore Your Travel */
-main{
+main {
     padding: 0 140px;
 }
-.Explore{
+
+.Explore {
     background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     height: 500px;
     border-radius: 16px;
     padding: 0 140px;
-    padding-top: 30px;  
+    padding-top: 30px;
 }
-.container{
+
+.container {
     text-align: center;
     align-items: center;
     justify-content: center;
 }
-.container .container-button{
+
+.container .container-button {
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-width: 100%;
-align-items: center;
-padding-bottom: 40px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 100%;
+    align-items: center;
+    padding-bottom: 40px;
 
 }
-.container .container-text p{
+
+.container .container-text p {
     width: 100%;
     max-width: 500px;
     padding-left: 200px;
 }
 
-.container .container-button{
-   padding-top: 50px;
+.container .container-button {
+    padding-top: 50px;
 }
 
 /* Our Popular Tours */
 
-.popular{
+.popular {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    /* width: 100%; */
     margin-top: 20px;
 }
-.popular .popular-text{
+
+.popular .popular-text {
     width: 50%;
     height: 600px;
     text-align: justify;
 }
-.popular .popular-img{
+
+.popular .popular-img {
     width: 50%;
     height: 600px;
 }
 
-/* picture Your Destination */
-
-.picture .picture{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(3,1fr);
+/* Choose Your Destination */
+.choose {
+    width: 100%;
+    margin-top: 50px;
 }
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.picture .row {
+    height: 300px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    clear: both;
+}
+
+/* Why Choose Us */
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    width: 100%;
+
+}
+
+.row .location {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    padding: 20px;
+}
+/* .row .hi1{
+    background: rgba(41, 206, 246, 0.05);
+    margin-right: 300px;
+}
+.row .hi2{
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 400px;
+    margin-top: 20px;
+} */
+.row .location img {
+    width: 64px;
+    height: 64px;
+}
+/* .row .location p{
+    text-align: justify;
+}
+
+.hello{
+    text-align: center;
+}  */
+/* responsive media querry */
+@media screen and (max-width:576px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+} */
